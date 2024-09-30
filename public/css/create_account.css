@@ -1,0 +1,74 @@
+.graphic_container{
+  width:20%;
+  float:left;
+  position: fixed;
+  height:100%
+}
+
+.graphic_container img {
+  height:100%;
+  width:100%;
+  background:linear-gradient(to right, #009797, #009797, #009797, #009797, #009797, #009797);
+
+}
+
+.create_account_container--form{
+  margin-left:20%;
+  width:80%;
+  padding:40px;
+  padding-top:5px;
+  background: white;
+}
+
+.company_name{
+  float:left;
+  width:100%;
+  margin-left: 0px;
+}
+
+.company_name img {
+  width:5%;
+}
+
+.create_account_container--form p {
+  font-family: "Montserrat";
+  color:#3d5a72
+}
+
+.create_account_container--form .title {
+  clear:both;
+  font-size:30px;
+  padding-top:30px;
+}
+
+.create_account_container--form .question {
+  clear:both;
+  font-size:18px;
+  font-weight: 600;
+  padding-top:30px;
+}
+
+label{
+  margin-top:2.5%;
+  color:#3d5a72
+}
+
+.auth_button{
+  width:30%;
+  margin-top:5%;
+  border:none;
+  padding:15px;
+  border-radius:10px;
+  background:#3d5a72;
+  color:white;
+  opacity: .4;
+  transition:all .4s;
+}
+.auth_button:hover{
+  opacity: 1
+
+}
+.company_name{
+  font-size: 20px;
+  font-family: "Montserrat";
+}

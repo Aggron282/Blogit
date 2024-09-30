@@ -1,0 +1,17 @@
+.modal_text{
+  font-size:18px;
+  font-weight: 400;
+}
+
+.create_post_modal_container{
+  width:100%;
+  padding:20px;
+}
+.create_blog_modal_col input {
+  width:100%;
+  padding:2px;
+}
+.create_blog_modal_col{
+  margin-top:10px;
+  
+}

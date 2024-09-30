@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const Blogger = new Schema(
+const Author = new Schema(
   {
   name:{
     type:String,
@@ -33,6 +33,6 @@ const Blogger = new Schema(
 );
 
 
-mongoose.model("bloggers",Blogger);
+mongoose.model("authors",Author);
 
-module.exports = Blogger;
+module.exports = Author;

@@ -1,3 +1,22 @@
 .navbar_row{
   width:100%;
 }
+.navbar{
+  padding-top:20px;
+}
+.company_logo{
+  width:100%;
+  max-width:60px;
+  float: left;
+}
+.navbar_container{
+  padding-top:15px;
+}
+.company_name{
+  float:left;
+  font-size:18px;
+  font-weight:300;
+  margin-top:5%;
+  margin-left:5%;
+  font-size:30px;
+}

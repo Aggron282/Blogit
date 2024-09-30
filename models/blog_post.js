@@ -8,6 +8,10 @@ const BlogPost = new Schema(
     type:String,
     required:true
   },
+  catagory:{
+    type:String,
+    required:"true"
+  },
   ranking:{
     type:Number,
     required:true
@@ -60,6 +64,5 @@ const BlogPost = new Schema(
 );
 
 
-mongoose.model("blog_posts",BlogPost);
 
-module.exports = BlogPost;
+module.exports = mongoose.model("blogs",BlogPost);

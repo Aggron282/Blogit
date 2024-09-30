@@ -1,5 +1,6 @@
 import React from "react";
 import SubNavbar from "./sub_navbar.js";
+import Logo from "./../../images/logo.png";
 
 class Navbar extends React.Component {
 
@@ -8,18 +9,18 @@ class Navbar extends React.Component {
     return(
       <div class="navbar navbar--user">
 
-        <div class="row navbar_row" style={{width:"100%"}}>
+        <div class="row navbar_row">
 
           <div class="col-3">
 
-            <div class="navbar_container">
-              <img src = "/images/logo.png" class="company_logo company_logo--user" />
+            <div class="navbar_container--logo">
+              <img src = {Logo} class="company_logo company_logo--user" />
               <p class="company_name navbar_text">Blogit</p>
             </div>
 
           </div>
 
-          <div class="col-4">
+          <div class="col-5">
 
             <div class="navbar_container">
               <input class="form-control navbar_input--search_blogs" placeholder = "Search Blogs / Authors"/>
@@ -36,7 +37,7 @@ class Navbar extends React.Component {
 
           </div>
 
-          <div class="col-3">
+          <div class="col-2">
 
             <div class="navbar_container">
 
@@ -50,14 +51,14 @@ class Navbar extends React.Component {
 
         </div>
 
-        <SubNavbar />
+        <SubNavbar catagories = {this.props.catagories} />
 
       </div>
+
     )
 
   }
 
 }
-
 
 export default Navbar;

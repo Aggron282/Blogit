@@ -1,0 +1,30 @@
+.sub_navbar{
+   width:100%;
+   padding:10px;
+   border-top:1px solid #e6e6e6;
+   padding-top:15px;
+}
+
+.sub_navbar_row{
+  width:100%;
+}
+
+.sub_nav_text{
+  float: left;
+  margin-left:5%;
+}
+
+.sub_navbar_input{
+  width:100%;
+}
+
+.sub_navbar_container--catagories{
+  width:50%;
+  float:  left;
+}
+
+.sub_navbar_container--input{
+  float:left;
+  width:40%;
+  margin-left:5%;
+}

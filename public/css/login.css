@@ -1,0 +1,79 @@
+.login_container--form{
+  float:left;
+  width:45%;
+  background:white;
+  padding:50px;
+  padding-top:10px;
+  padding-bottom:10%;
+}
+
+.graphic_container--login{
+  float:left;
+  width:50%;
+  padding:40px;
+  position: relative;
+  padding-left:10px;
+  padding-top:0px;
+}
+.text_container{
+  padding:40px;
+  padding-top:20px;
+  padding-left:20px;
+  width:100%;
+}
+.graphic--login{
+  width:75%;
+  position: absolute;
+  bottom:-25%;
+  right:-20.5%;
+}
+.text_container--login .title{
+  font-size:50px;
+  font-weight:600;
+  width:80%;
+}
+.text_container--login .description{
+  font-size:15px;
+  font-weight:300;
+  width:50%;
+}
+.create_account_button--login{
+  background:none;
+  border:none;
+  color:white;
+  font-weight:100;
+  font-size:16px;
+  width:50%;
+  float: left;
+  text-align: left;
+  position: relative;
+  font-family: "Montserrat";
+}
+
+.create_account_button--login .underline{
+  height:2px;
+  width:0%;
+  transition: all .4s;
+  position: absolute;
+  bottom:0%;
+  background: white;
+  left:2.5%;
+}
+
+.create_account_button--login:hover .underline{
+  width:inherit;
+}
+
+.text_container--login{
+  font-size:17px;
+  font-family: "Montserrat";
+  color:white;
+  font-weight:200;
+}
+body{
+  background:linear-gradient(to right, #009797, #009797, #009797, #009797, #009797, #009797);
+}
+.auth_button--login{
+  width:50%;
+  margin-left:25%;
+}
